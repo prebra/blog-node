@@ -24,7 +24,7 @@ if (ENV !== 'production') {
     stream: process.stdout
   }))
 } else {
-  const logFileName = path.join(__dirname, './logs/acess.js')
+  const logFileName = path.join(__dirname, './logs/access.js')
   const accessLogStream = fs.createWriteStream(logFileName, {
     flags: 'a'
   })

@@ -1,0 +1,3 @@
+::ffff:127.0.0.1 - - [20/Jan/2020:07:56:05 +0000] "GET /api/blog/list?isadmin=1 HTTP/1.0" 200 472 "http://localhost:8080/admin.html" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36"
+::1 - - [20/Jan/2020:07:56:09 +0000] "GET /api/blog/detail?id=11 HTTP/1.0" 200 155 "http://localhost:8080/edit.html?id=11" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36"
+::ffff:127.0.0.1 - - [20/Jan/2020:07:56:11 +0000] "POST /api/blog/update?id=11 HTTP/1.0" 200 16 "http://localhost:8080/edit.html?id=11" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36"
